@@ -1,0 +1,4 @@
+<launch>
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="robot_cleaner" pkg="b_abolivier_cleaner" type="robot_cleaner" output="screen" />
+</launch>
